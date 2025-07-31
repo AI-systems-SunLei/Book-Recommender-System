@@ -71,7 +71,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest .
+docker build -t sunlei416/bookapp:latest .
 ```
 
 ```bash
@@ -79,7 +79,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 entbappy/stapp
+docker run -d -p 8501:8501 sunlei416/bookapp
 ```
 
 ```bash
@@ -99,13 +99,13 @@ docker login
 ```
 
 ```bash
-docker push entbappy/stapp:latest
+docker push sunlei416/bookapp:latest
 ```
 
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi sunlei416/bookapp:latest
 ```
 
 ```bash
-docker pull entbappy/stapp
+docker pull sunlei416/bookapp
 ```

@@ -62,7 +62,7 @@ class Recommendation:
         try:
             obj = TrainingPipeline()
             obj.start_training_pipeline()
-            st.text("Training Completed!")
+            st.text("训练完成！")
             logging.info(f"Recommended successfully!")
         except Exception as e:
             raise AppException(e, sys) from e
@@ -96,14 +96,14 @@ if __name__ == "__main__":
     obj = Recommendation()
 
     #Training
-    if st.button('Train Recommender System'):
+    if st.button('训练推荐系统'):
         obj.train_engine()
 
     book_names = pickle.load(open(os.path.join('templates','book_names.pkl') ,'rb'))
     selected_books = st.selectbox(
-        "Type or select a book from the dropdown",
+        "选择或输入一本书",
         book_names)
     
     #recommendation
-    if st.button('Show Recommendation'):
+    if st.button('显示推荐'):
         obj.recommendations_engine(selected_books)
