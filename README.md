@@ -1,5 +1,9 @@
 # Book-Recommender-System
 
+I have deployed it on AWS. You can open the link to try it out: http://18.232.81.29:8501/
+
+If the page doesn't load or throws an error, please let me know. It's most likely that my AWS account has no funds left.
+
 ## Workflow
 
 - config.yaml
