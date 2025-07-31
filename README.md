@@ -1,5 +1,7 @@
 # Book-Recommender-System
 
+<img width="970" height="755" alt="QQ20250731-102931" src="https://github.com/user-attachments/assets/9e19bb8c-54fc-496b-9d52-02f10a8b0c69" />
+
 I have deployed it on AWS. You can open the link to try it out: http://18.232.81.29:8501/
 
 If the page doesn't load or throws an error, please let me know. It's most likely that my AWS account has no funds left.
